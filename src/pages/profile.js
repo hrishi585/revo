@@ -20,8 +20,8 @@ function Profile(){
                         <h3>Following</h3>
                     </li>
                 </ul>
+            <p>Lorem ipsum dolor sit amet,, orci massa dapibus lectus, vel fringilla tellus urna vitae nulla. Nam tristique neque quis nulla tristique feugiat. Nunc ac odio ut tortor ornare rhoncus. Nullam lobortis, magna id viverra ultrices, est tellus suscipit est, sit amet hendrerit est arcu ut quam.</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sagittis, magna eu faucibus finibus, orci massa dapibus lectus, vel fringilla tellus urna vitae nulla. Nam tristique neque quis nulla tristique feugiat. Nunc ac odio ut tortor ornare rhoncus. Nullam lobortis, magna id viverra ultrices, est tellus suscipit est, sit amet hendrerit est arcu ut quam.</p>
         </div>
     )
 }

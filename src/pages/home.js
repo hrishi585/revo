@@ -1,5 +1,6 @@
 import React from 'react'
 import hyd from '../assets/images/hyd.jpg'
+import pro from '../assets/images/pro2.png'
 import comment from '../assets/images/comment 1.png'
 import share from '../assets/images/share 2.png'
 import view from '../assets/images/view.png'
@@ -15,6 +16,7 @@ function Home(){
          </div>
          <div className="post">
             <div className="user-det">
+               <img className="pic" src={pro} alt="profile pic"/>
                <h5>Username</h5>
                <h6>Location</h6>
             </div>
@@ -30,6 +32,7 @@ function Home(){
          </div>
          <div className="post">
             <div className="user-det">
+               <img className="pic" src={pro} alt="profile pic"/>
                <h5>Username</h5>
                <h6>Location</h6>
             </div>
@@ -45,6 +48,7 @@ function Home(){
          </div>
          <div className="post">
             <div className="user-det">
+               <img className="pic" src={pro} alt="profile pic"/>
                <h5>Username</h5>
                <h6>Location</h6>
             </div>

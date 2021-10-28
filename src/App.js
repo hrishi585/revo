@@ -9,6 +9,8 @@ import Profile from './pages/profile';
 import Chat from './pages/chat';
 import Task from './pages/task';
 import Reward from './pages/reward';
+import Add from './pages/add';
+import Post from './pages/new-post';
 
 import Nav from './components/nav';
 
@@ -22,7 +24,7 @@ function App() {
             <Home />
             <Nav />
           </Route>
-          <Route exact path="/login">
+          <Route exact path="/">
             <Login />
           </Route>
           <Route exact path="/signup">
@@ -42,6 +44,14 @@ function App() {
           </Route>
           <Route exact path="/task">
             <Task />
+            <Nav />
+          </Route>
+          <Route exact path="/add">
+            <Add />
+            <Nav />
+          </Route>
+          <Route exact path="/new-post">
+            <Post />
             <Nav />
           </Route>
 
